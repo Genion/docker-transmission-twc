@@ -6,7 +6,7 @@ ARG VERSION
 LABEL build_version="odcn.top version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="oldiy"
 ENV TZ=Asia/Shanghai
-WEBUI_VERSION=1.6.0-beta2
+ENV WEBUI_VERSION=1.6.0-beta2
 
 RUN \
  echo "**** install packages ****" && \
